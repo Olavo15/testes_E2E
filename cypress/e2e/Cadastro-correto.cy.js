@@ -1,7 +1,7 @@
 const { usarname } = require("../fixtures/usarnames.ts");
 
-describe("template spec", () => {
-  it("passes", () => {
+describe("Pagin cadastru", () => {
+  it("You must fill in the form fields correctly to register a new user", () => {
     cy.visit("https://adopet-frontend-cypress.vercel.app/");
     cy.contains("a", "Cadastrar").click();
     cy.get("#name").type(usarname.name);
