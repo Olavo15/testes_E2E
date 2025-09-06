@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Olavo15/testes_E2E/issues"
   },
-  "homepage": "https://github.com/Olavo15/testes_E2E#readme"
+  "homepage": "https://github.com/Olavo15/testes_E2E#readme",
+  "devDependencies": {
+    "cypress": "^13.6.4"
+  }
 }
