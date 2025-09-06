@@ -7,9 +7,7 @@ describe("Pagin cadastru", () => {
     cy.get("[data-test='input-name']").type(usarname.name);
     cy.get("[data-test='input-email']").type(usarname.email);
     cy.get("[data-test='input-password']").type(usarname.pwd);
-    // cy.get("span > .pass__view").first().click();
     cy.get("[data-test='input-confirm-password']").type(usarname.new_pwd);
-    // cy.get("span > .pass__view").eq(1).click();
     cy.get("[data-test='submit-button']").click();
   });
 });
