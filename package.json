@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Olavo15/testes_E2E#readme",
   "devDependencies": {
-    "cypress": "^13.6.4"
+    "cypress": "^13.6.4",
+    "mochawesome": "^7.1.3"
   }
 }
