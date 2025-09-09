@@ -6,10 +6,6 @@ describe("Pagin cadastru", () => {
     cy.get("[data-test='register-button']").click();
   });
   it("You must fill in the form fields correctly to register a new user", () => {
-    cy.get("[data-test='input-name']").type(usarname.name);
-    cy.get("[data-test='input-email']").type(usarname.email);
-    cy.get("[data-test='input-password']").type(usarname.pwd);
-    cy.get("[data-test='input-confirm-password']").type(usarname.new_pwd);
-    cy.get("[data-test='submit-button']").click();
+    cy.register(usarname.name, usarname.email, usarname.pwd, usarname.pwd);
   });
 });
